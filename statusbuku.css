@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin-top: 10px;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    background-color:white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#header-2 {
+    display: flex;
+    align-items: center;
+    background-color:#FBC97B;
+    padding: 20px;
+    margin-bottom: 10px;
+    gap:5px;
+}
+
+#menu {
+    width: 30px;
+    margin-right: 10px;
+}
+
+#logobimay {
+    width: 80px;
+    margin-right:200px;
+}
+
+#home, #aboutUs, #chat, #profile {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#homeimage, #contactusimage, #chatgambar {
+    width: 20px;
+    margin-right: 5px;
+}
+
+#profilepic {
+    width: 40px;    
+    top:3;
+    position:absolute;
+    right:0;
+}
+
+h1 {
+    font-size: 12px;
+    color: #504b38;
+}
+
+.table {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #FFB433;
+    color: #504b38;
+    font-weight: bold;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f8f3d9;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #ebe5c2;
+}
+
+.status_returned {
+    color: green;
+    font-weight: bold;
+}
+
+.status_unreturned {
+    color: #a31d1d;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #504b38;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#cabang {
+    display: flex;
+    flex-direction: column; /* Menyusun elemen secara vertikal */
+    align-items: flex-start;
+    margin: 10px;
+}
+
+#namanya {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px; /* Jarak antara nama cabang dan deskripsi */
+}
+
+#lokasi-img {
+    width: 15px; 
+    margin-right: 8px; /* Jarak antara gambar dan teks */
+}
+
+#cabangnya {
+    font-size: 12px;
+    font-weight: bold;
+    color: #333; 
+}
+
+#descnya {
+    margin-left: 28px; 
+}
+
+#desc {
+    font-size: 10px;
+    color: #666;
+}
+
+.header-bawah{
+    display:flex;
+    align-items:center;
+    background-color: #FFB433;
+    gap:10px;
+    width:100%;
+    padding:50px;
+    margin-top:99%;
+
+}
+#phoneicon{
+    width:15px;
+    margin-left:5px;
+}
+#desc-header-bwh{
+    font-size: 12px;
+}
+
+.btn{
+    background-color:#FFB433;
+    padding:3px;
+    border-radius: 8px;
+    width:90px;
+    border: none;
+
+}
+.btn:hover{
+    background-color:#dc961d;
+
+}
+#searchbar{
+    background-color:#FFB433;
+    padding:5px;
+    border-radius: 50px;
+    width:500px;
+    border:#c68b1d;
+
+}
+#wrapper1{
+    display:flex;
+    align-items: center;
+    gap : 5px;
+}
+#genrepic{
+    width: 20px;
+}
