@@ -1,93 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="header.css">
-    <link rel="stylesheet" type="text/css" href="statusbuku.css">
-    <title>Document</title>
-</head>
-<body>
-    <div id="header">
-        <div id="logobimayandmenu">
-            <img id="menu" src="ninedots.webp" alt="MENU">
-            <img id="logobimay" src="logo_bimay.jpg" alt="BINUSMAYA">
-        </div>
-        <div id="menu-group">
-            <div id="home">
-                <img id="homeimage" src="home.png" alt="HOME">
-                <h1 id="tulisanhome">Home</h1>
-            </div>
-            <div id="aboutUs">
-                <img id="contactusimage" src="people.png" alt="CONTACT US">
-                <h1 id="tulisancontact">About Us</h1>
-            </div>
-            <div id="chat">
-                <img id="chatgambar" src="chat.png" alt="contactUs">
-                <h1 id="chattulisan">Contact US</h1>
-            </div>
-        </div>
-        <div id="profile">
-            <img id="profilepic" src="contact.webp" alt="profile">
-        </div>
-    </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="header.css" />
+		<link rel="stylesheet" type="text/css" href="statusbuku.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
+		<title>Document</title>
+	</head>
+	<body>
+		<div id="header">
+			<div id="logobimayandmenu">
+				<img id="menu" src="ninedots.webp" alt="MENU" />
+				<img id="logobimay" src="logo_bimay.jpg" alt="BINUSMAYA" />
+			</div>
+			<div id="menu-group">
+				<div id="home">
+					<img id="homeimage" src="home.png" alt="HOME" />
+					<h1 id="tulisanhome">Home</h1>
+				</div>
+				<div id="aboutUs">
+					<img id="contactusimage" src="people.png" alt="CONTACT US" />
+					<h1 id="tulisancontact">About Us</h1>
+				</div>
+				<div id="chat">
+					<img id="chatgambar" src="chat.png" alt="contactUs" />
+					<h1 id="chattulisan">Contact US</h1>
+				</div>
+			</div>
+			<div id="profile">
+				<img id="profilepic" src="contact.webp" alt="profile" />
+			</div>
+		</div>
 
-    <div id="cabang">
-        <div id="namanya">
-            <img id="lokasi-img" src="lokasi.png" alt="lokasi">
-            <p id="cabangnya">LKC BINUS ALAM SUTERA</p>
-        </div>
-        <div id="descnya">
-            <p id="desc">Jl.Jalur Sutera Barat Lt. 1</p>
-        </div>
-    </div>
+		<div id="cabang">
+			<div id="namanya">
+				<img id="lokasi-img" src="lokasi.png" alt="lokasi" />
+				<p id="cabangnya">LKC BINUS ALAM SUTERA</p>
+			</div>
+			<div id="descnya">
+				<p id="desc">Jl.Jalur Sutera Barat Lt. 1</p>
+			</div>
+		</div>
 
-    <div class="header-searchbar">
-        <div id="header-2">
-            <input id="searchbar" type="text" placeholder="Search here" class="search-input">
-            <div id="wrapper1">
-                <button class="btn">Genre<img id="genrepic" src="genre.png" alt="genre"></button>
-            </div>
-            <button class="btn">Favorite</button>
-        </div>
-    </div>
+		<div class="header-searchbar">
+			<div id="header-2">
+				<input
+					id="searchbar"
+					type="text"
+					placeholder="Search here"
+					class="search-input"
+				/>
+				<div id="wrapper1">
+					<button class="btn">
+						Genre<img id="genrepic" src="genre.png" alt="genre" />
+					</button>
+				</div>
+				<button class="btn">Favorite</button>
+			</div>
+		</div>
 
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Judul Buku</th>
-                <th>Tanggal Pinjam</th>
-                <th>Tanggal Kembalikan</th>
-                <th>Status</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><a href="https://upload.wikimedia.org/wikipedia/id/b/bf/Harry_Potter_and_the_Sorcerer%27s_Stone.jpg">Harry Potter</a></td>
-                <td>01/08/2024</td>
-                <td>08/08/2024</td>
-                <td class="status_returned">RETURNED</td>
-            </tr>
-            <tr>
-                <td><a href="https://ebooks.gramedia.com/ebook-covers/64290/image_highres/BLK_SDPBDDM2021701168.jpg">Statistics For Computer Science</a></td>
-                <td>01/08/2024</td>
-                <td>01/08/2025</td>
-                <td class="status_unreturned">UNRETURNED</td>
-            </tr>
+		<!-- Swiper -->
+		<div class="swiper mySwiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img
+						src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPzcBfIBxhcdGTTwOShMp8PhhyEiLFyv7ceQ&s"
+						alt=""
+					/>
+                    <h1>Book 1</h1>
+                    <p>100 Page</p>
+				</div>
+				<div class="swiper-slide">Slide 2</div>
+				<div class="swiper-slide">Slide 3</div>
+				<div class="swiper-slide">Slide 4</div>
+				<div class="swiper-slide">Slide 5</div>
+				<div class="swiper-slide">Slide 6</div>
+				<div class="swiper-slide">Slide 7</div>
+				<div class="swiper-slide">Slide 8</div>
+				<div class="swiper-slide">Slide 9</div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
 
-            <tr>
-                <td><a href="https://store.ums.ac.id/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/4/2/427482_358454027511125_1807876529_n.jpg">Calculus</a></td>
-                <td>01/01/2025</td>
-                <td>09/12/2025</td>
-                <td class="status_unreturned">UNRETURNED</td>
-            </tr>
-        </tbody>
-    </table>
+		<!-- Swiper JS -->
 
-    <div class="header-bawah">
-        <img id=phoneicon src="phone-icon.png" alt="contact:">
-        <p id="desc-header-bwh">Help</p>
-    </div>
+		<div class="header-bawah">
+			<img id="phoneicon" src="phone-icon.png" alt="contact:" />
+			<p id="desc-header-bwh">Help</p>
+		</div>
+	</body>
 
-</body>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="statusBuku.js"></script>
 </html>

@@ -1,73 +1,106 @@
 <!DOCTYPE html>
-<html>  
-<head>
-    <title>BINUS Library</title>
-    <link rel="stylesheet" type="text/css" href="header.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-    
-    <div id="header">
-        <div id="logobimayandmenu">
-            <img id="menu" src="ninedots.webp" alt="MENU">
-            <img id="logobimay" src="logo_bimay.jpg" alt="BINUSMAYA">
-        </div>
-        <div id="menu-group">
-            <div id="home">
-                <img id="homeimage" src="home.png" alt="HOME">
-                <h1 id="tulisanhome">Home</h1>
-            </div>
-            <div id="aboutUs">
-                <img id="contactusimage" src="people.png" alt="CONTACT US">
-                <h1 id="tulisancontact">About Us</h1>
-            </div>
-            <div id="chat">
-                <img id="chatgambar" src="chat.png" alt="contactUs">
-                <h1 id="chattulisan">Contact US</h1>
-            </div>
-        </div>
-        <div id="profile">
-            <img id="profilepic" src="contact.webp" alt="profile">
-        </div>
-    </div>
-    
-    <img id="librarypic" src="library.jpg" alt="library">
+<html>
+	<head>
+		<title>BINUS Library</title>
+		<link rel="stylesheet" type="text/css" href="header.css" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+        <link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
+	</head>
+	<body>
+		<div id="header">
+			<div id="logobimayandmenu">
+				<img id="menu" src="ninedots.webp" alt="MENU" />
+				<img id="logobimay" src="logo_bimay.jpg" alt="BINUSMAYA" />
+			</div>
+			<div id="menu-group">
+				<div id="home">
+					<img id="homeimage" src="home.png" alt="HOME" />
+					<h1 id="tulisanhome">Home</h1>
+				</div>
+				<div id="aboutUs">
+					<img id="contactusimage" src="people.png" alt="CONTACT US" />
+					<h1 id="tulisancontact">About Us</h1>
+				</div>
+				<div id="chat">
+					<img id="chatgambar" src="chat.png" alt="contactUs" />
+					<h1 id="chattulisan">Contact US</h1>
+				</div>
+			</div>
+			<div id="profile">
+				<img id="profilepic" src="contact.webp" alt="profile" />
+			</div>
+		</div>
 
-    <div class="login">
-        <button type="submit" class="login_btn">Login</button>
-        <h4>or</h4>
-        <button type="submit" class="sign_up_btn">Sign Up</button>
-    </div>
+		<!-- Swiper -->
+		<div class="swiper mySwiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+                    <img src="library.jpg" alt="">
+                </div>
+				<div class="swiper-slide">Slide 2</div>
+				<div class="swiper-slide">Slide 3</div>
+				<div class="swiper-slide">Slide 4</div>
+				<div class="swiper-slide">Slide 5</div>
+				<div class="swiper-slide">Slide 6</div>
+				<div class="swiper-slide">Slide 7</div>
+				<div class="swiper-slide">Slide 8</div>
+				<div class="swiper-slide">Slide 9</div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
 
-    
-    <h3 id="header_atas_container">Our Location</h3>
- 
+		<div class="login">
+			<button type="submit" class="login_btn">Login</button>
+			<h4>or</h4>
+			<button type="submit" class="sign_up_btn">Sign Up</button>
+		</div>
 
-    <div class="container">
-        <img src="binus_alsut.jpeg" alt="BINUS" class="image">
-        <div class="text">
-            <h2>BINUS Alam Sutera</h2>
-            <p class="address">Jl. Jalur Sutera Bar. No.Kav. 21, RT.001/RW.004,Panunggangan,Kec. Pinang, Kota Tangerang, Banten 15143</p>
-            <p class="phone">
-                <img id="emailicon" src="phone-icon.png" alt="Phone Icon" class="icon"> : 021 1234567</p>
-            <p class="email">
-                <img id="emailicon" src="email-icon.png" alt="Email Icon" class="icon"> : binus.ac.id/alsut/
-               </p>
-            <button class="direction-btn">Directions</button>
-            <button class="btn-aja">></button>
-        </div>
-    </div>
+		<h3 id="header_atas_container">Our Location</h3>
 
-    <h3 id="header_atas_container">Explore</h3>
-    <div class="container">
-        <div id="tulisan_dlm_explore">
-            <p>Home</p>
-            <p>About Us</p>
-            <p>Contact Us</p>
-        </div>
-        
-    </div>
+		<div class="container">
+			<img src="binus_alsut.jpeg" alt="BINUS" class="image" />
+			<div class="text">
+				<h2>BINUS Alam Sutera</h2>
+				<p class="address">
+					Jl. Jalur Sutera Bar. No.Kav. 21, RT.001/RW.004,Panunggangan,Kec.
+					Pinang, Kota Tangerang, Banten 15143
+				</p>
+				<p class="phone">
+					<img
+						id="emailicon"
+						src="phone-icon.png"
+						alt="Phone Icon"
+						class="icon"
+					/>
+					: 021 1234567
+				</p>
+				<p class="email">
+					<img
+						id="emailicon"
+						src="email-icon.png"
+						alt="Email Icon"
+						class="icon"
+					/>
+					: binus.ac.id/alsut/
+				</p>
+				<button class="direction-btn">Directions</button>
+				<button class="btn-aja">></button>
+			</div>
+		</div>
 
+		<h3 id="header_atas_container">Explore</h3>
+		<div class="container">
+			<div id="tulisan_dlm_explore">
+				<p>Home</p>
+				<p>About Us</p>
+				<p>Contact Us</p>
+			</div>
+		</div>
+	</body>
 
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="login.js"></script>
 </html>
